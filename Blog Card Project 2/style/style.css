@@ -12,7 +12,9 @@ body {
 main {
   background-color: #fff;
   border-radius: 20px;
-  width: 330px;
+  width: 80%;
+  max-width: 20.5rem;
+  min-width: 15rem;
   padding: 1.3rem;
   border: 2px #121212 solid;
   box-shadow: 10px 10px 0 #121212;
