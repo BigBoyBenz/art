@@ -1,0 +1,88 @@
+body {
+  background-color: #f4d04e;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 330px;
+  padding: 1.3rem;
+  border: 2px #121212 solid;
+  box-shadow: 10px 10px 0 #121212;
+  margin-bottom: 8px;
+}
+
+article {
+  margin: 0;
+}
+#title {
+  margin: 0;
+}
+#title a {
+  font-weight: 800;
+  color: #121212;
+  text-decoration: none;
+}
+#title a:hover {
+  color: #f4d04e;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.learn {
+  background-color: #f4d04e;
+  width: 20%;
+  padding: 0.4rem;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  height: 30px;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.pfp {
+  width: 30px;
+}
+
+.publish-date {
+  font-size: 14px;
+}
+
+.description,
+.attribution {
+  color: #6b6b6b;
+  line-height: 1.5;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #6b6b6b;
+}
